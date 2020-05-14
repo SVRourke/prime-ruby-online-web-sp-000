@@ -10,6 +10,7 @@ def prime?(n)
       false
     else
       factors = Array(2..n-1)
+      puts factors
       factors = factors.map {|factor| n % factor == 0 ? true : false }
       puts factors
       puts factors.include?(true) ? false : true
