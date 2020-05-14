@@ -11,7 +11,8 @@ def prime?(n)
     else
       factors = Array(2..n-1)
       factors = factors.map {|factor| n % factor == 0 ? true : false }
-      puts factors.include?(true) ? false : true
+      puts factors
+      # puts factors.include?(true) ? false : true
     end
   end
   end
