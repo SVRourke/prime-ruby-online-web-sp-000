@@ -15,7 +15,7 @@ def prime?(n)
       # puts factors.include?(true) ? false : true
     end
   end
-  end
+
   
 #   if n <= 1
 #     false
